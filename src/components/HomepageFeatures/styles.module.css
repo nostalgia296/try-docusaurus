@@ -46,14 +46,6 @@
   border-radius: 2px;
 }
 
-.sectionSubtitle {
-  font-size: 1.2rem;
-  color: var(--ifm-color-emphasis-700);
-  margin-bottom: 3rem;
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .featureCard {
   height: 100%;

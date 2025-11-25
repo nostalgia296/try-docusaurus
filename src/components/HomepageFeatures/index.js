@@ -93,7 +93,6 @@ export default function HomepageFeatures() {
       <div className="container">
         <div className="text--center margin-bottom--xl">
           <h2 className={styles.sectionTitle}>核心特性</h2>
-          <p className={styles.sectionSubtitle}>强大而简洁的 GitHub Release 资产管理工具</p>
         </div>
         <div className="row">
           {FeatureList.map((props, idx) => (
