@@ -18,7 +18,21 @@ const config = {
 
     // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
     future: {
-        v4: true, // Improve compatibility with the upcoming Docusaurus v4
+        v4: {
+            removeLegacyPostBuildHeadAttribute: true,
+            useCssCascadeLayers: true,
+        },
+        experimental_faster: {
+            swcJsLoader: true,          // SWC instead of Babel for JS/TS transpilation
+            swcJsMinimizer: true,       // SWC instead of Terser for JS minification
+            swcHtmlMinimizer: true,     // SWC for HTML/minified assets
+            lightningCssMinimizer: true, // Lightning CSS instead of cssnano
+            // Note: rspackBundler is disabled because Rspack doesn't have prebuilt binaries for Android ARM64
+            // rspackBundler: true,     // Rspack instead of webpack - disabled on Android
+            // rspackPersistentCache: true, // Persistent caching - requires rspack
+            mdxCrossCompilerCache: true, // Cache MDX compilation results
+            ssgWorkerThreads: true,     // Worker threads for SSG (requires v4 flag)
+        },
     },
 
     // Set the production url of your site here
