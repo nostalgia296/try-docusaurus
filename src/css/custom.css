@@ -4,42 +4,42 @@
  * work well for content-centric websites.
  */
 
-/* 自定义配色方案 - GitHub 风格 */
+/* 自定义配色方案 - 紫罗兰渐变风格 */
 :root {
-  --ifm-color-primary: #0969da;
-  --ifm-color-primary-dark: #0550ae;
-  --ifm-color-primary-darker: #033d8b;
-  --ifm-color-primary-darkest: #022b67;
-  --ifm-color-primary-light: #218bff;
-  --ifm-color-primary-lighter: #4da0ff;
-  --ifm-color-primary-lightest: #80bdff;
+  --ifm-color-primary: #6366f1;
+  --ifm-color-primary-dark: #4f46e5;
+  --ifm-color-primary-darker: #4338ca;
+  --ifm-color-primary-darkest: #3730a3;
+  --ifm-color-primary-light: #818cf8;
+  --ifm-color-primary-lighter: #a5b4fc;
+  --ifm-color-primary-lightest: #c7d2fe;
 
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 
   /* 自定义变量 */
-  --ghrm-gradient-start: #0969da;
-  --ghrm-gradient-end: #1f883d;
-  --ghrm-card-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
-  --ghrm-card-hover-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  --ghrm-gradient-start: #6366f1;
+  --ghrm-gradient-end: #ec4899;
+  --ghrm-card-shadow: 0 4px 6px rgba(99, 102, 241, 0.15);
+  --ghrm-card-hover-shadow: 0 10px 25px rgba(99, 102, 241, 0.25);
 }
 
-/* 深色模式配色 */
+/* 深色模式配色 - 紫罗兰渐变风格 */
 [data-theme='dark'] {
-  --ifm-color-primary: #58a6ff;
-  --ifm-color-primary-dark: #4493f8;
-  --ifm-color-primary-darker: #3178d4;
-  --ifm-color-primary-darkest: #255ab2;
-  --ifm-color-primary-light: #79c0ff;
-  --ifm-color-primary-lighter: #a5d6ff;
-  --ifm-color-primary-lightest: #cae6ff;
+  --ifm-color-primary: #818cf8;
+  --ifm-color-primary-dark: #6366f1;
+  --ifm-color-primary-darker: #4f46e5;
+  --ifm-color-primary-darkest: #4338ca;
+  --ifm-color-primary-light: #a5b4fc;
+  --ifm-color-primary-lighter: #c7d2fe;
+  --ifm-color-primary-lightest: #e0e7ff;
 
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 
-  --ghrm-gradient-start: #58a6ff;
-  --ghrm-gradient-end: #3fb950;
-  --ghrm-card-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-  --ghrm-card-hover-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
+  --ghrm-gradient-start: #818cf8;
+  --ghrm-gradient-end: #f472b6;
+  --ghrm-card-shadow: 0 4px 6px rgba(99, 102, 241, 0.2);
+  --ghrm-card-hover-shadow: 0 10px 25px rgba(99, 102, 241, 0.35);
 }
 
 /* Hero 区域动画背景 - 增强渐变效果 */
